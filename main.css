@@ -8,17 +8,21 @@ body {
 #about-us .container h2{
     text-shadow:  3px 3px 50px green;
 }
-
-#plans .container .row .col-md-4{
+#plans .container h2{
+    text-shadow:  3px 3px 50px green;
 }
+#faqs .container h2{
+    text-shadow:  3px 3px 50px green;
+}
+
 #plans .container .row .col-md-4 .plan{
     padding: 5%;
     border-radius: 5%;
-    background-color: rgb(208, 255, 208);
+    background-color: rgb(255, 240, 208);
 }
 @media only screen and (max-width: 800px) {
   #about-us .container {
-      padding: 30px;
+      padding: 20px;
       font-size: 1px;
   }
   #about-us .container p{
