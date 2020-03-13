@@ -2,4 +2,9 @@ body {
     padding-top:0px;
     background-color: rgb(0, 0, 0);
     padding-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about-us .container h2{
+    text-shadow:  3px 3px 50px green;
 }
