@@ -1,10 +1,32 @@
 body {
     padding-top:0px;
-    background-color: rgb(0, 0, 0);
+    background-color: #e9ecef;
     padding-bottom: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #about-us .container h2{
     text-shadow:  3px 3px 50px green;
+}
+
+#plans .container .row .col-md-4{
+}
+#plans .container .row .col-md-4 .plan{
+    padding: 5%;
+    border-radius: 5%;
+    background-color: rgb(208, 255, 208);
+}
+@media only screen and (max-width: 800px) {
+  #about-us .container {
+      padding: 30px;
+      font-size: 1px;
+  }
+  #about-us .container p{
+      font-size: 15px;
+  }
+  #plans .container .row .col-md-4 .plan{
+          padding: 5%;
+
+    margin: 10px;
+}
 }
